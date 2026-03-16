@@ -4,7 +4,7 @@ const app = express();
 const port = 80;
 
 app.get('/', (req, res) => {
-  res.send(`.env 테스트 : ${process.env.DATABASE_NAME}`);
+  res.send(`.env テスト : ${process.env.DATABASE_NAME}`);
 })
 
 app.listen(port, () => {
